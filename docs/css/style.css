@@ -38,6 +38,10 @@ main {
     margin-left: 70px;
 }
 
+#contactForm {
+    margin-left: 35px;
+}
+
 .inner-cursor {
     cursor: pointer;
 }
