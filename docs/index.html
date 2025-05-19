@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Yummy</title>
+    <link rel="icon" href="assets/images/logo.png">
+</head>
+
+<body class="bg-black-dark">
+    <div class="load-box vh-100 w-100 position-fixed">
+        <div class=" position-absolute top-50 start-50 translate-middle text-white">
+            <i class="fa fa-spinner fa-spin fa-5x"></i>
+        </div>
+
+    </div>
+    <div id="sideBar" class="position-fixed d-flex vh-100">
+        <div id="sideNav" class="bg-black-dark px-3 py-4 h-100">
+            <div class="d-flex flex-column justify-content-between h-100">
+                <div>
+                    <ul class="text-white list-unstyled d-flex flex-column gap-3 overflow-hidden" id="navBtns">
+                        <li id="searchBtn" class="position-relative">Search</li>
+                        <li id="categoriesBtn" class="position-relative">Categories</li>
+                        <li id="areaBtn" class="position-relative">Area</li>
+                        <li id="ingredientsBtn" class="position-relative">Ingredients</li>
+                        <li id="contactUsBtn" class="position-relative">Contact Us</li>
+                    </ul>
+                </div>
+                <div class="text-white">
+                    <div class="d-flex gap-2">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <p class="mt-2 mb-0">Copyright Â© 2019 All Rights<br>Reserved.</p>
+                </div>
+            </div>
+        </div>
+        <div id="sideMenu" class="bg-white side-nav-btn d-flex flex-column justify-content-between py-4 h-100">
+            <div class="px-2">
+                <img src="/assets/images/logo.png" class="w-100 d-block" alt="logo image">
+            </div>
+            <button class="border-0 bg-white" id="navBtn">
+                <i class="fa-solid fa-align-justify fa-2x"></i>
+            </button>
+            <div class="d-flex flex-column align-items-center gap-2">
+                <i class="fa-solid fa-globe text-black"></i>
+                <i class="fa-solid fa-share-nodes text-black"></i>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="container-fluid p-5">
+            <div class="row g-4 mb-4" id="searchForm">
+
+            </div>
+            <div class="row g-4 mb-4 position-absolute top-50 start-50 translate-middle" id="contactForm">
+
+            </div>
+            <div class="row g-4" id="pageContent">
+
+            </div>
+        </div>
+    </main>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
