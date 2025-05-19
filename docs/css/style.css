@@ -6,6 +6,10 @@
     width: fit-content;
 }
 
+i {
+    cursor: pointer;
+}
+
 .bg-black-dark {
     background-color: rgb(28, 28, 28);
 }
